@@ -1,0 +1,379 @@
+body{
+	width:100%;
+}
+.main {
+	background-color: black;
+	text-align: center;height: 100vh;
+}
+.myimage {
+	color: white;
+	padding: em;
+}
+.myname {
+	color: white;
+	transform: translate(-28%, -25em);
+}
+.myname p {
+ 	font-weight: bolder;}
+.myname h2 {color: white;
+	opacity:0.8;
+	position:relative;
+	margin-bottom: 10px;
+	display:inline-block;
+}
+.myname h2:before {
+	content: '';
+	position:absolute;
+	width:80%;
+	height:4px;
+	top: 40px;
+	background:white;
+	bottom:0;
+	}
+.myname button {
+	background-color: black;
+	color: white;
+	padding: .3em;
+	margin-left: -5em;
+	}
+.myname button:hover {
+	background-color: blue;
+	color: white;
+	padding: .3em;
+	margin-left: -5em;
+	}
+.aboutme h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin-top: 2em;
+	margin-bottom: 10px;
+	display:inline-block;
+	left: 45%;
+	}
+.aboutme h3:before {
+	content: '';
+	position:absolute;
+	width:30%;
+	height:4px;
+	top: 35px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
+.content {
+	background-color:  whitesmoke ;#E1E1E1; 
+	color: black; 
+	font-family: cambria;
+	}
+
+.content ul li { 
+	padding: 0 10em .7em .5em; 
+	margin-left: 5em;
+	font-style: italic;
+ 	text-align: justify;
+ 	}
+.content p {
+	text-align: justify;
+	margin-left: 3em;
+	padding: 0 4em .7em .5em;		
+	}
+.content h3 {
+	font-family: tahoma; 
+	word-spacing: 3px;
+	margin-left: 16px;
+	}
+.education h3{
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	
+	margin-bottom: 20px;
+	display:inline-block;
+	left: 30%;
+	}
+	.education h3:before{
+		content: '';
+	position:absolute;
+	width:20%;
+	height:4px;
+	margin-left: 40%;
+	top: 35px;
+	background:black;
+	bottom:0;
+	}
+
+#cert{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(images/laptop.jpg); 
+	background-size: cover;
+	background-position:  ;	
+	background-repeat: no-repeat;
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: wrap;		
+	color: white;
+	padding: 2em;
+	}
+	#certt{padding-left: 4em;}
+	#cert h4 { background-color: green;
+		line-height: 4em; 
+	
+	padding: 0; margin: 0; width: 4em;
+	border-radius: 5em;
+	 }
+	#cert>div{ 
+	padding: 0 1em 0 12em; 
+	}
+	#cert #edu,{
+	background-color: whitesmoke;
+	color: black;
+	}
+	#cert h5, h4  { 
+	color: white; 
+	}
+
+	#skill{
+	background-color: whitesmoke;
+	}
+.progress {
+	
+	padding: .5em;
+	height:3.5em; 
+	background-color: transparent;		 	
+	}
+.progress h6 {
+	color: white;
+	padding-top: .4em;
+	}
+.skill {
+	padding: 1em;
+	}
+
+.skill h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin-bottom: 10px;
+	display:inline-block;
+	left: 45%;
+	}		
+.skill h3:before {
+	content: '';
+	position:absolute;
+	width:30%;
+	height:4px;
+	top: 32px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
+.portfolio h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin-bottom: 10px;
+	display:inline-block;
+	left: 45%;
+	}
+.portfolio h3:before {
+	content: '';
+	position:absolute;
+	width:30%;
+	height:4px;
+	top: 35px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	-left: 50em;
+	}
+.working-experience{
+	display: flex;
+}
+
+.cont h1 { 
+text-align: center;
+ 	}
+.contact { 
+	display: flex;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(images/laptop9.jpg);
+	color: #fff;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	flex-wrap: wrap;
+	flex-direction: row 
+	}
+.contact h5{
+	color: white;
+	}
+.contact > div{
+	margin:  2em 0 0 6em;
+	padding: 1em 0em 1em 1em;
+	}
+.contact p,textarea {
+	margin:0  0 0 0;
+	padding: 0; 
+	}
+
+.contact #input, textarea { 	
+	border-radius: 13px;
+	margin-bottom: .6em; 
+	border: none;
+ 	}
+ .contact #submit {
+ 	background-color: black;
+ 	color: white; 
+ 	padding: .5em;
+ 	border: none;
+ 	border-radius: 1em; 
+ 	cursor: pointer;
+ 	}
+.cont h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin-bottom: 15px;
+	display:inline-block;
+	left: 45%;
+	}
+.cont h3:before {
+	content: '';
+	position:absolute;
+	width:30%;
+	height:4px;
+	top: 35px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
+
+.social a {
+	margin: 5px;
+	}
+footer {
+	color: black;
+	}
+#footer {
+	padding-left: 5em;
+	color: black;
+	}
+.experience {
+	display: flex;
+	background-color: #E1E1E1;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: black;
+	font-family: cambria;
+	}
+.experience>div {
+	margin: 1em;
+	}
+#exp{ color: black;
+	}
+	#exp p{ margin: 1em 0 0 0; font-size: 1.2em; }
+#exp1 {
+	color: black;
+	}
+	#exp1 p{font-size: 1.2em; margin: 1em 0 0 0 ;}
+#work h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin-bottom: 15px;
+	display:inline-block;
+	left: 40%;
+	font-family: arial;
+	}
+#work h3:before{		
+	content: '';
+	position:absolute;
+	width:25%;
+	height:4px;
+	top: 35px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
+.interest {
+	background-color:  whitesmoke; 
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 1em;
+		}
+.interest h3{
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin: 5px 0 .2em 15px;
+	display:inline-block; 
+	left: 40%;
+
+	font-family: arial;
+	}
+	.interest h3:before{		
+	content: '';
+	position:absolute;
+	width:25%;
+	height:4px;
+	top: 30px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
+	.interest{
+	margin-right: 4em; 
+	padding-right: 4em;
+	}
+	.interest ul {
+	padding-left: 8em;
+	 }
+	.interest ul li {
+	color: black; 
+	font-weight: bolder;
+	font-family: cambria; 
+	padding-bottom: 1.5em; 
+	}
+.strength {
+	background-color:  whitesmoke;
+	width: 70%; 
+	margin-left: 15%;
+	margin-top: 1em;}
+	
+.strength ul{ 
+	padding-left: 6em;
+	 }
+.strength ul li {
+	color: black;
+	font-weight: bolder;
+	font-family: cambria; 
+	padding-bottom: 1.5em;
+	}
+.strength h3 {
+	color: black;
+	opacity:0.8;
+	margin-top: 5px;
+	position:relative;
+	margin: 5px 0 .2em 15px;
+	display:inline-block; 
+	left: 30%;
+	padding-right: 2em;
+	font-family: arial;
+	}
+.strength h3:before {		
+	content: '';
+	position:absolute;
+	width:20%;
+	height:4px;
+	top: 30px;
+	margin-left: 40%;
+	background:black;
+	bottom:0;
+	}
